@@ -1,4 +1,4 @@
-package com.doushiyang.springbootstudy;
+package com.doushiyang.springBootStudy;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

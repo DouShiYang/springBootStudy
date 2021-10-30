@@ -1,0 +1,27 @@
+server:
+  port: 8802
+  servlet:
+    context-path: /SpringBootStudy
+swagger:
+  basic:
+    enable: true
+    ## Basic认证用户名
+    username: admin
+    ## Basic认证密码
+    password: 'admin123456'
+spring:
+  application:
+    name: douShiYang-SpringBootStudy
+  profiles:
+    active: test
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.105.170.93:3306/test?useLocalSessionState=true&useBlobToStoreUTF8OutsideBMP=true&characterEncoding=UTF-8&rewriteBatchedStatements=true&useAffectedRows=true&connectTimeout=3000&socketTimeout=7000&autoReconnect=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: u2)zwMupyjWq
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  cloud:
+    consul:
+      config:
+        enabled: false
